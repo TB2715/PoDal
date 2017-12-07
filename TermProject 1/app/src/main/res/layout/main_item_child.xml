@@ -20,13 +20,13 @@
         android:layout_alignLeft="@id/btnProject_img"
         android:layout_alignRight="@id/btnProject_img"
         android:layout_alignTop="@id/btnProject_img"
-        android:gravity="center"
+        android:gravity="center_vertical"
 
-        android:paddingLeft="20dp"
+        android:paddingLeft="30dp"
+        android:paddingBottom="5dp"
         android:text="Text"
         android:textColor="#000"
-        android:textSize="30dp"
-        android:textStyle="bold"
+        android:textSize="20dp"
         android:typeface="sans" />
 
 </RelativeLayout>
