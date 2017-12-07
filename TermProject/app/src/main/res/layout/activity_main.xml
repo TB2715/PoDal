@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="kr.ac.cnu.cse.termproject.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <kr.ac.cnu.cse.termproject.AnimatedExpandableListView
+            android:id="@+id/mainExpandableListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </kr.ac.cnu.cse.termproject.AnimatedExpandableListView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/generateButton"
+        android:text="포트폴리오 제작하기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
