@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/btnAddProject_img"
+        android:layout_margin="10dp"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:src="@drawable/processing_project_icon"/>
+
+    <TextView
+        android:id="@+id/processingGroup_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/btnAddProject_img"
+        android:layout_toRightOf="@+id/btnAddProject_img"
+        android:gravity="center"
+        android:paddingBottom="5dp"
+        android:text="현재 진행중인 프로젝트"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+</RelativeLayout>
