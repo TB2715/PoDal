@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/btnAddProject_img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/btn_add_project"/>
+
+    <TextView
+        android:id="@+id/btnAddProject_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/btnAddProject_img"
+        android:layout_alignLeft="@id/btnAddProject_img"
+        android:layout_alignRight="@id/btnAddProject_img"
+        android:layout_alignTop="@id/btnAddProject_img"
+        android:gravity="center"
+
+        android:paddingBottom="5dp"
+        android:text="+ Add"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+</RelativeLayout>
