@@ -212,6 +212,7 @@ public class MainActivity extends AppCompatActivity {
             if (convertView == null) {
                 holder = new GroupHolder();
                 convertView = inflater.inflate(R.layout.main_item_group, parent, false);
+                //convertView = inflater.inflate(R.layout.main_project_processing_group, parent, false);    //HJ edit
                 holder.title = (TextView) convertView.findViewById(R.id.textGroup);
                 convertView.setTag(holder);
             } else {

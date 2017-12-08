@@ -11,7 +11,8 @@
         android:id="@+id/mainContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/background">
 
         <kr.ac.cnu.cse.termproject.AnimatedExpandableListView
             android:id="@+id/mainExpandableListView"
@@ -25,7 +26,10 @@
     <Button
         android:id="@+id/generateButton"
         android:text="포트폴리오 제작하기"
+        android:textSize="20dp"
+        android:background="#FFF"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"/>
+
 </RelativeLayout>
