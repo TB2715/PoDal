@@ -23,6 +23,7 @@ public class UserInfoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_info);
+        //setContentView(R.layout.activity_edit_userinfo);
 
         abar = this.getSupportActionBar();
         abar.show();
